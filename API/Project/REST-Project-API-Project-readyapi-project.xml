@@ -233,7 +233,7 @@
     <con:oAuth2Profile>
       <con:name>Sliza</con:name>
       <con:type>OAuth 2.0</con:type>
-      <con:accessToken>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</con:accessToken>
+      <con:accessToken></con:accessToken>
       <con:accessTokenPosition>HEADER</con:accessTokenPosition>
       <con:accessTokenStatus>ENTERED_MANUALLY</con:accessTokenStatus>
       <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
@@ -281,7 +281,7 @@
     <con:oAuth20AuthEntry>
       <con:name>Sliza</con:name>
       <con:type>OAuth 2.0</con:type>
-      <con:accessToken>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</con:accessToken>
+      <con:accessToken></con:accessToken>
       <con:accessTokenPosition>HEADER</con:accessTokenPosition>
       <con:accessTokenStatus>ENTERED_MANUALLY</con:accessTokenStatus>
       <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
@@ -293,3 +293,4 @@
   </con:authRepository>
   <con:tags/>
 </con:soapui-project>
+
