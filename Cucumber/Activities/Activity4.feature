@@ -1,6 +1,6 @@
 @activity4
 Feature: Logintest
-  Scenario: Testing Login without Examples
+  Scenario: Testing with correct data from inputs
     Given the user is on the login page
     When the user enters "admin" and "password"
     And clicks the submit button
