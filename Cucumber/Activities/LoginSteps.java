@@ -75,4 +75,16 @@ public class LoginSteps extends BaseClass {
         // Assert message
         Assertions.assertEquals(expectedMessage, message);
     }
+    @Then("gets the confirmation texts and verify message as {string}")
+    public void confirmsMessageAsInput(String expectedMessage) {
+        // Find the message
+        String message = "NOT FOUND";
+        if (expectedMessage.contains("Invalid")) {
+            message = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("h2#subheading"))).getText();
+        } else {
+            message = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("h2.mt-5"))).getText();
+        }
+        // Assert message
+        Assertions.assertEquals(expectedMessage, message);
+    }
 }
